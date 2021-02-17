@@ -62,7 +62,7 @@ public class IntStreamOperations {
     }
 
     private static void printVariables(int[] values) {
-        if (IntStream.of(values).min().isEmpty() || IntStream.of(values).average().isEmpty()) {
+        if (!(IntStream.of(values).min().isPresent() && IntStream.of(values).average().isPresent())) {
             return;
         }
         printList("Count: ", IntStream.of(values).count());
