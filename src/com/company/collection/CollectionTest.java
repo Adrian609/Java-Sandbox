@@ -36,7 +36,6 @@ public class CollectionTest {
         convertToUpperCase(list1);
         printList(list1);
 
-
         removeItems(list1, 4, 7);
         printList(list1);
         printReversedList(list1);

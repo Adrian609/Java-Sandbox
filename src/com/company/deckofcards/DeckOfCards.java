@@ -6,7 +6,7 @@ import java.util.stream.IntStream;
 public class DeckOfCards {
     private static final int NUMBER_OF_CARDS = 52;
     private static final SecureRandom randomNumbers = new SecureRandom();
-    private Card[] deck;
+    private final Card[] deck;
     private int currentCard;
 
     public DeckOfCards() {

@@ -41,7 +41,7 @@ public class CustomList<T> {
     }
 
     public class Node {
-        private T value;
+        private final T value;
         private Node next;
         private Node prev;
 
