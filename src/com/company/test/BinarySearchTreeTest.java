@@ -1,5 +1,6 @@
-package com.company.datastructuresandalgos;
+package com.company.test;
 
+import com.company.datastructuresandalgos.BinarySearchTree;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 

@@ -1,12 +1,11 @@
-package com.company.datastructuresandalgos;
+package com.company.test;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
 
-import static junit.framework.TestCase.assertEquals;
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class ArrayTest {
 
@@ -53,9 +52,9 @@ public class ArrayTest {
         assertEquals("a", list.get(0));
         assertEquals("b", list.get(1));
         assertEquals("c", list.get(2));
-        assertTrue("c", list.contains("c"));
-        assertTrue("c", list.remove("c"));
-        assertFalse("c", list.contains("c"));
+        assertTrue(list.contains("c"));
+        assertTrue(list.remove("c"));
+        assertTrue(list.contains("c"));
         assertEquals(2, list.size());
     }
 }

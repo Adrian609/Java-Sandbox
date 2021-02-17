@@ -1,4 +1,4 @@
-package com.company.datastructuresandalgos;
+package com.company.test;
 
 import org.junit.jupiter.api.Test;
 

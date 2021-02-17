@@ -1,5 +1,6 @@
-package com.company.datastructuresandalgos;
+package com.company.test;
 
+import com.company.datastructuresandalgos.CustomList;
 import org.junit.jupiter.api.Test;
 
 import java.util.LinkedList;
