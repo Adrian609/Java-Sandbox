@@ -9,11 +9,7 @@ public class ClassAverage {
         int selectOptions;
         boolean userContinue = false;
 
-        String s = """
-                Select:\s
-                1: gradePointAvgOne()
-                2: gradePointAvgTwo()
-                0: 0 to quit""";
+        String s = "Select: 1: gradePointAvgOne() 2: gradePointAvgTwo() 0: 0 to quit";
 
         do {
             userSelectionPrompt(s);
