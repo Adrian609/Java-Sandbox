@@ -1,4 +1,4 @@
-package main.java.com.company.lambdasandstreams;
+package com.company.lambdasandstreams;
 
 public class ArraysAndStreams {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package main.java.com.company.lambdasandstreams;
+package com.company.lambdasandstreams;
 
 import java.util.*;
 import java.util.stream.Collectors;

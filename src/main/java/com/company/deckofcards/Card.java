@@ -1,4 +1,4 @@
-package main.java.com.company.deckofcards;
+package com.company.deckofcards;
 
 public class Card {
 
