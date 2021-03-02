@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Addition" />
+        <module name="Kafka-sandbox" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Addition" target="15" />
+      <module name="Addition" target="1.8" />
+      <module name="Kafka-sandbox" target="15" />
     </bytecodeTargetLevel>
   </component>
 </project>

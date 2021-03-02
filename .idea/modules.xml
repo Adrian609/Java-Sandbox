@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Addition.iml" filepath="$PROJECT_DIR$/Addition.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Kafka-sandbox/Kafka-sandbox.iml" filepath="$PROJECT_DIR$/Kafka-sandbox/Kafka-sandbox.iml" />
     </modules>
   </component>
 </project>
