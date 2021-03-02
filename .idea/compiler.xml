@@ -11,7 +11,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Addition" target="1.8" />
-      <module name="Kafka-sandbox" target="15" />
+      <module name="Kafka-sandbox" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
